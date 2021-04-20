@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+.news-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../pictures/report1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  font-family: source sans Pro, sans-serif;
+  margin: 0;
+  max-width: 100%;
+}
+.blog-container {
+  width: 80%;
+  padding: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.blog {
+  margin: 20px auto;
+}
+.date {
+  color: #fff;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.paragraph {
+  border-left: 5px solid #007bff;
+  padding-left: 5px;
+}
+.news-container h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 40px;
+}
+.news-container p {
+  color: #fff;
+  font-weight: 600;
+  word-spacing: 0.2rem;
+  line-height: 1.5rem;
+}
